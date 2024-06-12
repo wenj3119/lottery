@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: lottery
+  datasource:
+    url: jdbc:mysql://rkk.douwen.top:3308/lottery_douwen
+    username: root
+    password: BJfu0000,,
+  flyway:
+    locations:
+      - db/migration
+    url: jdbc:mysql://rkk.douwen.top:3308/lottery_douwen
+    password: BJfu0000,,
+    user: root
